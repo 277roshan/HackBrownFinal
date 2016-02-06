@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E9686D1C66765D0083470B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9686C1C66765D0083470B /* main.m */; };
+		D3E968701C66765D0083470B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9686F1C66765D0083470B /* AppDelegate.m */; };
+		D3E968731C66765D0083470B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968721C66765D0083470B /* ViewController.m */; };
+		D3E968761C66765D0083470B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E968741C66765D0083470B /* Main.storyboard */; };
+		D3E968781C66765D0083470B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E968771C66765D0083470B /* Assets.xcassets */; };
+		D3E9687B1C66765D0083470B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E968791C66765D0083470B /* LaunchScreen.storyboard */; };
+		D3E968861C66765D0083470B /* TrackingRealTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968851C66765D0083470B /* TrackingRealTimeTests.m */; };
+		D3E968911C66765D0083470B /* TrackingRealTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968901C66765D0083470B /* TrackingRealTimeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3E968821C66765D0083470B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E968601C66765D0083470B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E968671C66765D0083470B;
+			remoteInfo = TrackingRealTime;
+		};
+		D3E9688D1C66765D0083470B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3E968601C66765D0083470B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3E968671C66765D0083470B;
+			remoteInfo = TrackingRealTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3E968681C66765D0083470B /* TrackingRealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingRealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E9686C1C66765D0083470B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3E9686E1C66765D0083470B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3E9686F1C66765D0083470B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3E968711C66765D0083470B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3E968721C66765D0083470B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3E968751C66765D0083470B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3E968771C66765D0083470B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3E9687A1C66765D0083470B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3E9687C1C66765D0083470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E968811C66765D0083470B /* TrackingRealTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingRealTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E968851C66765D0083470B /* TrackingRealTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingRealTimeTests.m; sourceTree = "<group>"; };
+		D3E968871C66765D0083470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E9688C1C66765D0083470B /* TrackingRealTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingRealTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E968901C66765D0083470B /* TrackingRealTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingRealTimeUITests.m; sourceTree = "<group>"; };
+		D3E968921C66765D0083470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E968651C66765D0083470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9687E1C66765D0083470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E968891C66765D0083470B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E9685F1C66765D0083470B = {
+			isa = PBXGroup;
+			children = (
+				D3E9686A1C66765D0083470B /* TrackingRealTime */,
+				D3E968841C66765D0083470B /* TrackingRealTimeTests */,
+				D3E9688F1C66765D0083470B /* TrackingRealTimeUITests */,
+				D3E968691C66765D0083470B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E968691C66765D0083470B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968681C66765D0083470B /* TrackingRealTime.app */,
+				D3E968811C66765D0083470B /* TrackingRealTimeTests.xctest */,
+				D3E9688C1C66765D0083470B /* TrackingRealTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E9686A1C66765D0083470B /* TrackingRealTime */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9686E1C66765D0083470B /* AppDelegate.h */,
+				D3E9686F1C66765D0083470B /* AppDelegate.m */,
+				D3E968711C66765D0083470B /* ViewController.h */,
+				D3E968721C66765D0083470B /* ViewController.m */,
+				D3E968741C66765D0083470B /* Main.storyboard */,
+				D3E968771C66765D0083470B /* Assets.xcassets */,
+				D3E968791C66765D0083470B /* LaunchScreen.storyboard */,
+				D3E9687C1C66765D0083470B /* Info.plist */,
+				D3E9686B1C66765D0083470B /* Supporting Files */,
+			);
+			path = TrackingRealTime;
+			sourceTree = "<group>";
+		};
+		D3E9686B1C66765D0083470B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9686C1C66765D0083470B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3E968841C66765D0083470B /* TrackingRealTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968851C66765D0083470B /* TrackingRealTimeTests.m */,
+				D3E968871C66765D0083470B /* Info.plist */,
+			);
+			path = TrackingRealTimeTests;
+			sourceTree = "<group>";
+		};
+		D3E9688F1C66765D0083470B /* TrackingRealTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968901C66765D0083470B /* TrackingRealTimeUITests.m */,
+				D3E968921C66765D0083470B /* Info.plist */,
+			);
+			path = TrackingRealTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E968671C66765D0083470B /* TrackingRealTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E968951C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTime" */;
+			buildPhases = (
+				D3E968641C66765D0083470B /* Sources */,
+				D3E968651C66765D0083470B /* Frameworks */,
+				D3E968661C66765D0083470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackingRealTime;
+			productName = TrackingRealTime;
+			productReference = D3E968681C66765D0083470B /* TrackingRealTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3E968801C66765D0083470B /* TrackingRealTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E968981C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTimeTests" */;
+			buildPhases = (
+				D3E9687D1C66765D0083470B /* Sources */,
+				D3E9687E1C66765D0083470B /* Frameworks */,
+				D3E9687F1C66765D0083470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E968831C66765D0083470B /* PBXTargetDependency */,
+			);
+			name = TrackingRealTimeTests;
+			productName = TrackingRealTimeTests;
+			productReference = D3E968811C66765D0083470B /* TrackingRealTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3E9688B1C66765D0083470B /* TrackingRealTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E9689B1C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTimeUITests" */;
+			buildPhases = (
+				D3E968881C66765D0083470B /* Sources */,
+				D3E968891C66765D0083470B /* Frameworks */,
+				D3E9688A1C66765D0083470B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3E9688E1C66765D0083470B /* PBXTargetDependency */,
+			);
+			name = TrackingRealTimeUITests;
+			productName = TrackingRealTimeUITests;
+			productReference = D3E9688C1C66765D0083470B /* TrackingRealTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E968601C66765D0083470B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HackAtBrown;
+				TargetAttributes = {
+					D3E968671C66765D0083470B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D3E968801C66765D0083470B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D3E968671C66765D0083470B;
+					};
+					D3E9688B1C66765D0083470B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D3E968671C66765D0083470B;
+					};
+				};
+			};
+			buildConfigurationList = D3E968631C66765D0083470B /* Build configuration list for PBXProject "TrackingRealTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E9685F1C66765D0083470B;
+			productRefGroup = D3E968691C66765D0083470B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E968671C66765D0083470B /* TrackingRealTime */,
+				D3E968801C66765D0083470B /* TrackingRealTimeTests */,
+				D3E9688B1C66765D0083470B /* TrackingRealTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E968661C66765D0083470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E9687B1C66765D0083470B /* LaunchScreen.storyboard in Resources */,
+				D3E968781C66765D0083470B /* Assets.xcassets in Resources */,
+				D3E968761C66765D0083470B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9687F1C66765D0083470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9688A1C66765D0083470B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E968641C66765D0083470B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E968731C66765D0083470B /* ViewController.m in Sources */,
+				D3E968701C66765D0083470B /* AppDelegate.m in Sources */,
+				D3E9686D1C66765D0083470B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E9687D1C66765D0083470B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E968861C66765D0083470B /* TrackingRealTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3E968881C66765D0083470B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E968911C66765D0083470B /* TrackingRealTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3E968831C66765D0083470B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E968671C66765D0083470B /* TrackingRealTime */;
+			targetProxy = D3E968821C66765D0083470B /* PBXContainerItemProxy */;
+		};
+		D3E9688E1C66765D0083470B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3E968671C66765D0083470B /* TrackingRealTime */;
+			targetProxy = D3E9688D1C66765D0083470B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3E968741C66765D0083470B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E968751C66765D0083470B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3E968791C66765D0083470B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E9687A1C66765D0083470B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3E968931C66765D0083470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3E968941C66765D0083470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E968961C66765D0083470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackingRealTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3E968971C66765D0083470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackingRealTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3E968991C66765D0083470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackingRealTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingRealTime.app/TrackingRealTime";
+			};
+			name = Debug;
+		};
+		D3E9689A1C66765D0083470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackingRealTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingRealTime.app/TrackingRealTime";
+			};
+			name = Release;
+		};
+		D3E9689C1C66765D0083470B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrackingRealTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrackingRealTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D3E9689D1C66765D0083470B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrackingRealTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrackingRealTime;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E968631C66765D0083470B /* Build configuration list for PBXProject "TrackingRealTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E968931C66765D0083470B /* Debug */,
+				D3E968941C66765D0083470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E968951C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E968961C66765D0083470B /* Debug */,
+				D3E968971C66765D0083470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3E968981C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E968991C66765D0083470B /* Debug */,
+				D3E9689A1C66765D0083470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3E9689B1C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E9689C1C66765D0083470B /* Debug */,
+				D3E9689D1C66765D0083470B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E968601C66765D0083470B /* Project object */;
+}
