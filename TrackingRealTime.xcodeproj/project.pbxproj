@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74D1BED81C671CC10061C014 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D1BED71C671CC10061C014 /* WindowsAzureMobileServices.framework */; };
+		74D1BED91C671CC10061C014 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D1BED71C671CC10061C014 /* WindowsAzureMobileServices.framework */; };
+		74D1BEDA1C671CC10061C014 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D1BED71C671CC10061C014 /* WindowsAzureMobileServices.framework */; };
+		74D1BEDF1C6750C50061C014 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D1BEDE1C6750C50061C014 /* CoreLocation.framework */; };
 		D3E9686D1C66765D0083470B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9686C1C66765D0083470B /* main.m */; };
 		D3E968701C66765D0083470B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9686F1C66765D0083470B /* AppDelegate.m */; };
 		D3E968731C66765D0083470B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968721C66765D0083470B /* ViewController.m */; };
@@ -15,6 +19,25 @@
 		D3E9687B1C66765D0083470B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E968791C66765D0083470B /* LaunchScreen.storyboard */; };
 		D3E968861C66765D0083470B /* TrackingRealTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968851C66765D0083470B /* TrackingRealTimeTests.m */; };
 		D3E968911C66765D0083470B /* TrackingRealTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968901C66765D0083470B /* TrackingRealTimeUITests.m */; };
+		D3E968A01C669C350083470B /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9689F1C669C350083470B /* LoginPage.m */; };
+		D3E968A31C669CC10083470B /* CreateProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968A21C669CC10083470B /* CreateProfile.m */; };
+		D3E968A61C669D5A0083470B /* LeaveOrPickUp.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968A51C669D5A0083470B /* LeaveOrPickUp.m */; };
+		D3E968A91C669E830083470B /* PickUpMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968A81C669E830083470B /* PickUpMessages.m */; };
+		D3E968AC1C669E9D0083470B /* LeaveMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968AB1C669E9D0083470B /* LeaveMessages.m */; };
+		D3E968AF1C669EB20083470B /* MyLikedPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968AE1C669EB20083470B /* MyLikedPage.m */; };
+		D3E968D01C66AD5D0083470B /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968B31C66AD5D0083470B /* MDCGeometry.m */; };
+		D3E968D11C66AD5D0083470B /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968B61C66AD5D0083470B /* MDCViewState.m */; };
+		D3E968D21C66AD5D0083470B /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968B81C66AD5D0083470B /* UIColor+MDCRGB8Bit.m */; };
+		D3E968D31C66AD5D0083470B /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968BB1C66AD5D0083470B /* UIView+MDCBorderedLabel.m */; };
+		D3E968D41C66AD5D0083470B /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968C11C66AD5D0083470B /* MDCSwipeOptions.m */; };
+		D3E968D51C66AD5D0083470B /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968C31C66AD5D0083470B /* MDCSwipeToChooseViewOptions.m */; };
+		D3E968D61C66AD5D0083470B /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968C61C66AD5D0083470B /* MDCPanState.m */; };
+		D3E968D71C66AD5D0083470B /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968C91C66AD5D0083470B /* MDCSwipeResult.m */; };
+		D3E968D81C66AD5D0083470B /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968CD1C66AD5D0083470B /* MDCSwipeToChooseView.m */; };
+		D3E968D91C66AD5D0083470B /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968CF1C66AD5D0083470B /* UIView+MDCSwipeToChoose.m */; };
+		D3E968E01C66E5780083470B /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968DB1C66E5780083470B /* DraggableView.m */; };
+		D3E968E11C66E5780083470B /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968DD1C66E5780083470B /* DraggableViewBackground.m */; };
+		D3E968E21C66E5780083470B /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E968DF1C66E5780083470B /* OverlayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74D1BED71C671CC10061C014 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		74D1BEDE1C6750C50061C014 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D3E968681C66765D0083470B /* TrackingRealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingRealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E9686C1C66765D0083470B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3E9686E1C66765D0083470B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,48 @@
 		D3E9688C1C66765D0083470B /* TrackingRealTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingRealTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E968901C66765D0083470B /* TrackingRealTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingRealTimeUITests.m; sourceTree = "<group>"; };
 		D3E968921C66765D0083470B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E9689E1C669C350083470B /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		D3E9689F1C669C350083470B /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		D3E968A11C669CC10083470B /* CreateProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateProfile.h; sourceTree = "<group>"; };
+		D3E968A21C669CC10083470B /* CreateProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateProfile.m; sourceTree = "<group>"; };
+		D3E968A41C669D5A0083470B /* LeaveOrPickUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveOrPickUp.h; sourceTree = "<group>"; };
+		D3E968A51C669D5A0083470B /* LeaveOrPickUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveOrPickUp.m; sourceTree = "<group>"; };
+		D3E968A71C669E830083470B /* PickUpMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickUpMessages.h; sourceTree = "<group>"; };
+		D3E968A81C669E830083470B /* PickUpMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickUpMessages.m; sourceTree = "<group>"; };
+		D3E968AA1C669E9D0083470B /* LeaveMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveMessages.h; sourceTree = "<group>"; };
+		D3E968AB1C669E9D0083470B /* LeaveMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveMessages.m; sourceTree = "<group>"; };
+		D3E968AD1C669EB20083470B /* MyLikedPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLikedPage.h; sourceTree = "<group>"; };
+		D3E968AE1C669EB20083470B /* MyLikedPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLikedPage.m; sourceTree = "<group>"; };
+		D3E968B21C66AD5D0083470B /* MDCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCGeometry.h; sourceTree = "<group>"; };
+		D3E968B31C66AD5D0083470B /* MDCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCGeometry.m; sourceTree = "<group>"; };
+		D3E968B51C66AD5D0083470B /* MDCViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCViewState.h; sourceTree = "<group>"; };
+		D3E968B61C66AD5D0083470B /* MDCViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCViewState.m; sourceTree = "<group>"; };
+		D3E968B71C66AD5D0083470B /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		D3E968B81C66AD5D0083470B /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		D3E968BA1C66AD5D0083470B /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		D3E968BB1C66AD5D0083470B /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		D3E968BC1C66AD5D0083470B /* MDCSwipeToChoose-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-Prefix.pch"; sourceTree = "<group>"; };
+		D3E968BE1C66AD5D0083470B /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		D3E968C01C66AD5D0083470B /* MDCSwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeOptions.h; sourceTree = "<group>"; };
+		D3E968C11C66AD5D0083470B /* MDCSwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeOptions.m; sourceTree = "<group>"; };
+		D3E968C21C66AD5D0083470B /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		D3E968C31C66AD5D0083470B /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		D3E968C51C66AD5D0083470B /* MDCPanState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPanState.h; sourceTree = "<group>"; };
+		D3E968C61C66AD5D0083470B /* MDCPanState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPanState.m; sourceTree = "<group>"; };
+		D3E968C71C66AD5D0083470B /* MDCSwipeDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeDirection.h; sourceTree = "<group>"; };
+		D3E968C81C66AD5D0083470B /* MDCSwipeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeResult.h; sourceTree = "<group>"; };
+		D3E968C91C66AD5D0083470B /* MDCSwipeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeResult.m; sourceTree = "<group>"; };
+		D3E968CB1C66AD5D0083470B /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		D3E968CC1C66AD5D0083470B /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		D3E968CD1C66AD5D0083470B /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		D3E968CE1C66AD5D0083470B /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		D3E968CF1C66AD5D0083470B /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		D3E968DA1C66E5780083470B /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableView.h; path = MDCSwipeToChoose/DraggableView.h; sourceTree = "<group>"; };
+		D3E968DB1C66E5780083470B /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableView.m; path = MDCSwipeToChoose/DraggableView.m; sourceTree = "<group>"; };
+		D3E968DC1C66E5780083470B /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableViewBackground.h; path = MDCSwipeToChoose/DraggableViewBackground.h; sourceTree = "<group>"; };
+		D3E968DD1C66E5780083470B /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableViewBackground.m; path = MDCSwipeToChoose/DraggableViewBackground.m; sourceTree = "<group>"; };
+		D3E968DE1C66E5780083470B /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = MDCSwipeToChoose/OverlayView.h; sourceTree = "<group>"; };
+		D3E968DF1C66E5780083470B /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverlayView.m; path = MDCSwipeToChoose/OverlayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D1BEDF1C6750C50061C014 /* CoreLocation.framework in Frameworks */,
+				74D1BED81C671CC10061C014 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D1BED91C671CC10061C014 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,18 +142,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D1BEDA1C671CC10061C014 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74D1BEDB1C671CCB0061C014 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74D1BED71C671CC10061C014 /* WindowsAzureMobileServices.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
 		D3E9685F1C66765D0083470B = {
 			isa = PBXGroup;
 			children = (
+				74D1BEDE1C6750C50061C014 /* CoreLocation.framework */,
 				D3E9686A1C66765D0083470B /* TrackingRealTime */,
 				D3E968841C66765D0083470B /* TrackingRealTimeTests */,
 				D3E9688F1C66765D0083470B /* TrackingRealTimeUITests */,
+				74D1BEDB1C671CCB0061C014 /* frameworks */,
 				D3E968691C66765D0083470B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,11 +182,30 @@
 		D3E9686A1C66765D0083470B /* TrackingRealTime */ = {
 			isa = PBXGroup;
 			children = (
+				D3E968B01C66AD5D0083470B /* MDCSwipeToChoose */,
+				D3E968DA1C66E5780083470B /* DraggableView.h */,
+				D3E968DB1C66E5780083470B /* DraggableView.m */,
+				D3E968DC1C66E5780083470B /* DraggableViewBackground.h */,
+				D3E968DD1C66E5780083470B /* DraggableViewBackground.m */,
+				D3E968DE1C66E5780083470B /* OverlayView.h */,
+				D3E968DF1C66E5780083470B /* OverlayView.m */,
 				D3E9686E1C66765D0083470B /* AppDelegate.h */,
 				D3E9686F1C66765D0083470B /* AppDelegate.m */,
 				D3E968711C66765D0083470B /* ViewController.h */,
 				D3E968721C66765D0083470B /* ViewController.m */,
 				D3E968741C66765D0083470B /* Main.storyboard */,
+				D3E968AD1C669EB20083470B /* MyLikedPage.h */,
+				D3E968AE1C669EB20083470B /* MyLikedPage.m */,
+				D3E968AA1C669E9D0083470B /* LeaveMessages.h */,
+				D3E968AB1C669E9D0083470B /* LeaveMessages.m */,
+				D3E968A71C669E830083470B /* PickUpMessages.h */,
+				D3E968A81C669E830083470B /* PickUpMessages.m */,
+				D3E968A41C669D5A0083470B /* LeaveOrPickUp.h */,
+				D3E968A51C669D5A0083470B /* LeaveOrPickUp.m */,
+				D3E968A11C669CC10083470B /* CreateProfile.h */,
+				D3E968A21C669CC10083470B /* CreateProfile.m */,
+				D3E9689E1C669C350083470B /* LoginPage.h */,
+				D3E9689F1C669C350083470B /* LoginPage.m */,
 				D3E968771C66765D0083470B /* Assets.xcassets */,
 				D3E968791C66765D0083470B /* LaunchScreen.storyboard */,
 				D3E9687C1C66765D0083470B /* Info.plist */,
@@ -138,6 +238,93 @@
 				D3E968921C66765D0083470B /* Info.plist */,
 			);
 			path = TrackingRealTimeUITests;
+			sourceTree = "<group>";
+		};
+		D3E968B01C66AD5D0083470B /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968B11C66AD5D0083470B /* Internal */,
+				D3E968BC1C66AD5D0083470B /* MDCSwipeToChoose-Prefix.pch */,
+				D3E968BD1C66AD5D0083470B /* Public */,
+			);
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		D3E968B11C66AD5D0083470B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968B21C66AD5D0083470B /* MDCGeometry.h */,
+				D3E968B31C66AD5D0083470B /* MDCGeometry.m */,
+				D3E968B41C66AD5D0083470B /* State */,
+				D3E968B71C66AD5D0083470B /* UIColor+MDCRGB8Bit.h */,
+				D3E968B81C66AD5D0083470B /* UIColor+MDCRGB8Bit.m */,
+				D3E968B91C66AD5D0083470B /* Views */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		D3E968B41C66AD5D0083470B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968B51C66AD5D0083470B /* MDCViewState.h */,
+				D3E968B61C66AD5D0083470B /* MDCViewState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		D3E968B91C66AD5D0083470B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968BA1C66AD5D0083470B /* UIView+MDCBorderedLabel.h */,
+				D3E968BB1C66AD5D0083470B /* UIView+MDCBorderedLabel.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3E968BD1C66AD5D0083470B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968BE1C66AD5D0083470B /* MDCSwipeToChoose.h */,
+				D3E968BF1C66AD5D0083470B /* Options */,
+				D3E968C41C66AD5D0083470B /* State */,
+				D3E968CA1C66AD5D0083470B /* Views */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		D3E968BF1C66AD5D0083470B /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968C01C66AD5D0083470B /* MDCSwipeOptions.h */,
+				D3E968C11C66AD5D0083470B /* MDCSwipeOptions.m */,
+				D3E968C21C66AD5D0083470B /* MDCSwipeToChooseViewOptions.h */,
+				D3E968C31C66AD5D0083470B /* MDCSwipeToChooseViewOptions.m */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		D3E968C41C66AD5D0083470B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968C51C66AD5D0083470B /* MDCPanState.h */,
+				D3E968C61C66AD5D0083470B /* MDCPanState.m */,
+				D3E968C71C66AD5D0083470B /* MDCSwipeDirection.h */,
+				D3E968C81C66AD5D0083470B /* MDCSwipeResult.h */,
+				D3E968C91C66AD5D0083470B /* MDCSwipeResult.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		D3E968CA1C66AD5D0083470B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3E968CB1C66AD5D0083470B /* MDCSwipeToChooseDelegate.h */,
+				D3E968CC1C66AD5D0083470B /* MDCSwipeToChooseView.h */,
+				D3E968CE1C66AD5D0083470B /* UIView+MDCSwipeToChoose.h */,
+				D3E968CD1C66AD5D0083470B /* MDCSwipeToChooseView.m */,
+				D3E968CF1C66AD5D0083470B /* UIView+MDCSwipeToChoose.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +457,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E968A01C669C350083470B /* LoginPage.m in Sources */,
 				D3E968731C66765D0083470B /* ViewController.m in Sources */,
+				D3E968A31C669CC10083470B /* CreateProfile.m in Sources */,
 				D3E968701C66765D0083470B /* AppDelegate.m in Sources */,
+				D3E968D01C66AD5D0083470B /* MDCGeometry.m in Sources */,
+				D3E968A61C669D5A0083470B /* LeaveOrPickUp.m in Sources */,
+				D3E968D91C66AD5D0083470B /* UIView+MDCSwipeToChoose.m in Sources */,
+				D3E968A91C669E830083470B /* PickUpMessages.m in Sources */,
 				D3E9686D1C66765D0083470B /* main.m in Sources */,
+				D3E968E11C66E5780083470B /* DraggableViewBackground.m in Sources */,
+				D3E968D81C66AD5D0083470B /* MDCSwipeToChooseView.m in Sources */,
+				D3E968D11C66AD5D0083470B /* MDCViewState.m in Sources */,
+				D3E968D51C66AD5D0083470B /* MDCSwipeToChooseViewOptions.m in Sources */,
+				D3E968D71C66AD5D0083470B /* MDCSwipeResult.m in Sources */,
+				D3E968D21C66AD5D0083470B /* UIColor+MDCRGB8Bit.m in Sources */,
+				D3E968E01C66E5780083470B /* DraggableView.m in Sources */,
+				D3E968D31C66AD5D0083470B /* UIView+MDCBorderedLabel.m in Sources */,
+				D3E968D61C66AD5D0083470B /* MDCPanState.m in Sources */,
+				D3E968AF1C669EB20083470B /* MyLikedPage.m in Sources */,
+				D3E968D41C66AD5D0083470B /* MDCSwipeOptions.m in Sources */,
+				D3E968AC1C669E9D0083470B /* LeaveMessages.m in Sources */,
+				D3E968E21C66E5780083470B /* OverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +619,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TrackingRealTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTime;
@@ -424,6 +634,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TrackingRealTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTime;
@@ -435,6 +649,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TrackingRealTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeTests;
@@ -447,6 +665,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TrackingRealTimeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeTests;
@@ -458,6 +680,10 @@
 		D3E9689C1C66765D0083470B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TrackingRealTimeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeUITests;
@@ -470,6 +696,10 @@
 		D3E9689D1C66765D0083470B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TrackingRealTimeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlexP.TrackingRealTimeUITests;
@@ -498,6 +728,7 @@
 				D3E968971C66765D0083470B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E968981C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +737,7 @@
 				D3E9689A1C66765D0083470B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E9689B1C66765D0083470B /* Build configuration list for PBXNativeTarget "TrackingRealTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +746,7 @@
 				D3E9689D1C66765D0083470B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
